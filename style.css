@@ -1,0 +1,240 @@
+body{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+#header{
+    width: 100vw;
+}
+
+
+#div{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    position: relative;
+    top: 25%;
+}
+
+
+#gridcontainer{
+    display: grid;
+    width: 50rem;
+    height: 15rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+   
+}
+
+#box1{
+    border: 1.5px solid rgb(216, 216, 216);
+    border-radius: 15px;
+
+    text-align: left;
+    padding: 5px;
+    vertical-align: bottom;
+    padding-left: 15px;
+}
+
+#box2{
+    border: 1.5px solid rgb(216, 216, 216);
+    border-radius: 15px;
+    text-align: left;
+    padding: 5px;
+    padding-left: 15px;
+    
+}
+
+
+#box3{
+    border: 1.5px solid rgb(216, 216, 216);
+    border-radius: 15px;
+    text-align: left;
+    padding: 5px;
+    vertical-align: bottom;
+    padding-left: 15px;
+}
+
+
+#box4{
+    border: 1.5px solid rgb(216, 216, 216);
+    border-radius: 15px;
+    text-align: left;
+    padding: 5px;
+    vertical-align: bottom;
+    padding-left: 15px;
+}
+
+
+#searchbar{
+    border: 1.5px solid rgb(232, 232, 232);
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end:3 ;
+    border-radius: 2rem;
+    background-color: rgb(232, 232, 232,0.5);
+    width: 50rem;
+    height: 3.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#loginbutton{
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 2rem;
+    font-size: 18px;
+    position: absolute;
+    left: 80%;
+    top: 30px;
+}
+
+#signupbutton{
+    background-color: white;
+    color: black;
+    width: 80px;
+    height: 30px;
+    border-radius: 2rem;
+    font-size: 18px;
+    border: 1px solid rgb(232, 232, 232);
+    position: absolute;
+    left: 87%;
+    top: 30px;
+}
+
+#para{
+    color: rgb(78, 77, 77);
+    font-size: 18px;
+    font-family:sans-serif;
+    
+    padding-left: 20px;
+    display: inline;
+    float: left;
+}
+
+#img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: right;
+    padding: 8px;
+}
+#chatlogo{
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#chatname{
+    padding: 10px;
+}
+
+
+@media screen and (max-width:600px) {
+    body{
+        width: 40rem;
+       
+    }
+
+  
+    #gridcontainer{
+        display: grid;
+        width: 40rem;
+        height: 25rem;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+       
+    }
+    #chatname{
+        padding: 10px;
+        position: relative;
+        left: 15%;
+    }
+
+    #div{
+        display: flex;
+        justify-content: center;
+        height: 300px;
+        position: relative;
+        top: 18%;
+    }
+    #box1{
+        border: 1.5px solid rgb(216, 216, 216);
+        border-radius: 15px;
+    
+        text-align: left;
+        padding: 5px;
+        vertical-align: bottom;
+        padding-left: 15px;
+        grid-column-start: 1;
+        grid-column-end:3 ;
+    }
+
+    #box2{
+        border: 1.5px solid rgb(216, 216, 216);
+        border-radius: 15px;
+    
+        text-align: left;
+        padding: 5px;
+        vertical-align: bottom;
+        padding-left: 15px;
+        grid-column-start: 1;
+        grid-column-end:3 ;
+    }
+
+
+    #box3{
+        border: 1.5px solid rgb(216, 216, 216);
+        border-radius: 15px;
+    
+        text-align: left;
+        padding: 5px;
+        vertical-align: bottom;
+        padding-left: 15px;
+        grid-column-start: 1;
+        grid-column-end:3 ;
+    }
+
+    #box4{
+        border: 1.5px solid rgb(216, 216, 216);
+        border-radius: 15px;
+    
+        text-align: left;
+        padding: 5px;
+        vertical-align: bottom;
+        padding-left: 15px;
+        grid-column-start: 1;
+        grid-column-end:3 ;
+    }
+    
+    #loginbutton{
+        background-color: black;
+        color: white;
+        width: 80px;
+        height: 30px;
+        border-radius: 2rem;
+        font-size: 18px;
+        position: absolute;
+        left: 95%;
+        top: 20px;
+
+    }
+
+    #signupbutton{
+        background-color: white;
+        color: white;
+        width: 0px;
+        height: 0px;
+        position: relative;
+        right: 0%;
+    }
+    
+
+
+    
+}
+    
